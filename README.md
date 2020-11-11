@@ -1,8 +1,9 @@
-A Bathroom Lock is similar to a read-write lock
-which allows N types of threads (genders) to
-access a critical section (common bathroom)
-such that threads of the same type (gender)
-can enter at the same time, but disallows
+A Bathroom Lock allows N genders (thread types) to
+access a common bathroom (critical section) such that
+different genders do not clash.
+
+Bathroom Lock allows threads of the same type
+(gender) to enter at the same time, but disallows
 different types of threads to occupy the
 critical section (bathroom) at the same time.
 
