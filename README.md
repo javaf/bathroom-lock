@@ -7,6 +7,11 @@ Bathroom Lock allows threads of the same type
 different types of threads to occupy the
 critical section (bathroom) at the same time.
 
+> **Course**: [Concurrent Data Structures], Monsoon 2020\
+> **Taught by**: Prof. Govindarajulu Regeti
+
+[Concurrent Data Structures]: https://github.com/iiithf/concurrent-data-structures
+
 ```java
 lock():
 1. Acquire common lock.
